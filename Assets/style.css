@@ -1,0 +1,152 @@
+/* Font Awesome link so you can get the star icon (this goes into HTML)*/
+/* <script src="https://kit.fontawesome.com/d7579bbfc5.js"
+        crossorigin="anonymous"></script> */
+
+/* Default image link. Used when website is opened first time. */
+/* https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3033&q=80 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+
+:root {
+  --body-background: #e1e9f6;
+  --main-container-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --detail-container-and-selected-car-background: whitesmoke;
+  --card-hover-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  --card-hover-scale: scale(1.01, 1.01);
+  --discount-ribbon-background: #cf4976;
+  --ribbon-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  --star-color: #f6ce64;
+  --radius: 16px;
+  --tag-and-rating-radius: 8px;
+
+  /* Tags */
+  --orange: rgba(220, 114, 88, 1);
+  --blue: rgba(70, 92, 185, 1);
+  --red: rgba(143, 46, 38, 1);
+  --orange-background: rgba(220, 114, 88, 0.1);
+  --blue-background: rgba(70, 92, 185, 0.1);
+  --red-background: rgba(143, 46, 38, 0.1);
+  /* End tags */
+
+  /* Rating */
+  /* Only 5 */
+  --perfect: rgba(136, 181, 74, 1);
+  --perfect-background: rgba(136, 181, 74, 0.1);
+
+  /* Above 3.5 and including 3.5 */
+  --good: rgba(66, 133, 244, 1);
+  --good-background: rgba(66, 133, 244, 0.1);
+
+  /* Below 3.5 */
+  --ok: rgba(210, 130, 61, 1);
+  --ok-background: rgba(210, 130, 61, 0.1);
+  /* End Rating */
+}
+
+body {
+  background-color: var(--body-background);
+  margin: 3rem;
+}
+
+.bg-white {
+  border-radius: var(--radius);
+  box-shadow: var(--main-container-shadow);
+}
+
+.cardRight {
+  border-radius: var(--radius);
+  box-shadow: var(--card-hover-shadow);
+  background-color: #f5f5f5;
+}
+
+img {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.rounded{
+  border-radius: 60px;
+}
+/* Javascript */
+
+.bg-good {
+  background-color: var(--good-background);
+  color: var(--good);
+}
+.bg-perfect {
+  background-color: var(--perfect-background);
+  color: var(--perfect);
+}
+.bg-ok {
+  background-color: var(--ok-background);
+  color: var(--ok);
+}
+/* Javascript */
+.good {
+  color: var(--good);
+}
+.perfect {
+  color: var(--perfect);
+}
+.ok {
+  color: var(--ok);
+}
+/* Javascript */
+
+.fas {
+  color: var(--star-color);
+}
+
+.blueCard {
+  color: var(--blue);
+  background-color: var(--blue-background);
+}
+
+.orangeCard {
+  color: var(--orange);
+  background-color: var(--orange-background);
+}
+.redCard {
+  color: var(--red);
+  background-color: var(--red-background);
+}
+
+.discount {
+  color: whitesmoke;
+  background-color: var(--discount-ribbon-background);
+  box-shadow: var(--ribbon-shadow);
+  position: absolute;
+  border-radius: var(--radius);
+}
+
+.scroll {
+  height: 83vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 15px;
+}
+
+.touch:hover {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  /*background-color: #f5f5f5; */
+}
+
+.remove {
+  display: none;
+}
+
+.red {
+  background-color: red!important;
+}

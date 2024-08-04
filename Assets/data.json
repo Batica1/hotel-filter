@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Sunny Manor Resort",
+    "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 200,
+    "discount": 0.22,
+    "tags": [
+      {
+        "value": "Hotels",
+        "type": "blue"
+      },
+      {
+        "value": "Top Value",
+        "type": "orange"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Supreme Bay Hotel",
+    "imageUrl": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60",
+    "rating": 5,
+    "price": 320,
+    "discount": 0.5,
+    "tags": [
+      {
+        "value": "Hotels",
+        "type": "blue"
+      },
+      {
+        "value": "Great Location",
+        "type": "red"
+      },
+      {
+        "value": "Top Value",
+        "type": "orange"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Gentle Isle Resort & Spa",
+    "imageUrl": "https://images.unsplash.com/photo-1559293831-8a81f3bfc36c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 3.4,
+    "price": 120,
+    "discount": null,
+    "tags": [
+      {
+        "value": "Spa",
+        "type": "blue"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Nature Hotel",
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8&auto=format&fit=crop&w=800&q=60",
+    "rating": 1,
+    "price": 50,
+    "discount": 0.15,
+    "tags": null
+  },
+  {
+    "id": 5,
+    "title": "Tranquil Willow Resort & Spa",
+    "imageUrl": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.9,
+    "price": 600,
+    "discount": 0.32,
+    "tags": [
+      {
+        "value": "Top Value",
+        "type": "orange"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Rose Motel",
+    "imageUrl": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsfGVufDB8fDB8&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 200,
+    "discount": null,
+    "tags": null
+  },
+  {
+    "id": 7,
+    "title": "Celestial Resort",
+    "imageUrl": "https://images.unsplash.com/photo-1521929135277-1891dc05ef4d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8c25vdyUyMGhvdGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 3.9,
+    "price": 212,
+    "discount": null,
+    "tags": [
+      {
+        "value": "Recommended",
+        "type": "blue"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Twin Season Resort",
+    "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 3.5,
+    "price": 111,
+    "discount": null,
+    "tags": null
+  },
+  {
+    "id": 9,
+    "title": "Silver Brook Hotel",
+    "imageUrl": "https://images.unsplash.com/photo-1515767160065-1733c5eb680f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTQxfHxob3RlbCUyMG1vdW50YWluc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 2.5,
+    "price": 115,
+    "discount": null,
+    "tags": [
+      {
+        "value": "Snow Season",
+        "type": "blue"
+      },
+      {
+        "value": "Ski Lift",
+        "type": "orange"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Jade Brook Resort & Spa",
+    "imageUrl": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDA4fHxob3RlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "rating": 5,
+    "price": 245,
+    "discount": null,
+    "tags": null
+  }
+]
